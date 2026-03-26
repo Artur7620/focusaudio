@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/focusaudio.client.iml" filepath="$PROJECT_DIR$/.idea/modules/focusaudio.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/focusaudio.main.iml" filepath="$PROJECT_DIR$/.idea/modules/focusaudio.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/focusaudio.test.iml" filepath="$PROJECT_DIR$/.idea/modules/focusaudio.test.iml" />
+    </modules>
+  </component>
+</project>
