@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "focusaudio",
+  "version": "${version}",
+  "name": "FocusAudio",
+  "description": "♫ Live Audio Perception ♪",
+  "license": "All-Rights-Reserved",
+  "icon": "assets/focusaudio/icon.png",
+  "environment": "client",
+  "authors": [
+    "APTYP_CABEJIEB"
+  ],
+  "entrypoints": {
+    "main": [
+      "aptyp.focusaudio.focusaudio.Focusaudio"
+    ],
+    "client": [
+      "aptyp.focusaudio.focusaudio.client.FocusaudioClient"
+    ],
+    "modmenu": [
+      "aptyp.focusaudio.focusaudio.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "focusaudio.mixins.json",
+    {
+      "config": "focusaudio.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.8 <=1.21.11",
+    "cloth-config": "*"
+  }
+}
